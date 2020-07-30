@@ -7,18 +7,30 @@ import SEO from "../components/seo";
 
 const makeReq = async () => {
   const res = await axios.get("/.netlify/functions/leaderboard");
-  console.log(res.data);
+  return res;
 };
 
 const IndexPage = () => {
-  makeReq();
+  const { leaderboard } = makeReq();
+
+  let scores;
+
+  if (leaderboard) {
+    scores = leaderboard.map((player) => {
+      return (
+        <div>
+          <h3>player.name</h3>
+          <span>player.score</span>
+        </div>
+      );
+    });
+  }
 
   return (
     <Layout>
       <SEO title="Home" />
       <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+      {scores}
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
