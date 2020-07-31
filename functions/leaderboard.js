@@ -5,6 +5,7 @@ exports.handler = async (event) => {
     return {
       statusCode: 405,
       body: "This was not a GET request!",
+      headers: { Allow: "GET" },
     };
   }
 
