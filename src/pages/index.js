@@ -4,15 +4,15 @@ import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
 
-const handleSubmit = async (event) => {
+const handleSubmit = async (name, score) => {
   fetch("/.netlify/functions/insertScore", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      name: "cemm",
-      score: "100",
+      name,
+      score,
     }),
   }).then((response) => console.log(response));
 };
@@ -26,7 +26,7 @@ const IndexPage = () => {
       .then((resultData) => {
         setLeaderboard(resultData.leaderboard);
       });
-    handleSubmit();
+    // handleSubmit("Ananas", 9999);
   }, []);
 
   return (
