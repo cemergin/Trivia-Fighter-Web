@@ -38,8 +38,6 @@ exports.handler = async (event) => {
 
   const status = result === null ? "failed" : "success";
 
-  console.log(JSON.stringify({ status, leaderboard: result.data.leaderboard }));
-
   return {
     statusCode: 200,
     body: JSON.stringify({ status, leaderboard: result.data.leaderboard }),

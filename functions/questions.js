@@ -8,8 +8,6 @@ exports.handler = async (event) => {
     `https://opentdb.com/api.php?amount=${count}&type=multiple&encode=url3986`
   );
 
-  console.log(result.data.results);
-
   return {
     statusCode: 200,
     body: JSON.stringify(result.data.results),
