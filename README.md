@@ -25,8 +25,9 @@ Developed in part due to [the Udemy Programming Challenge](https://github.com/ud
 - Get Questions from [Open Trivia DB](https://opentdb.com/)
 - Round Timer
 - Calculate Score
-- Insert Score to Leaderboard
-- Display Leaderboard
+- Insert Score to Leaderboard DB
+- Get Leaderboard from DB
+- Display DB
 
 ### Front-End
 
@@ -99,6 +100,8 @@ Every round 10 more seconds are added to your timer. If the timer runs out befor
 ### Make History
 
 Beat other fighters' scores to put your name on the map. Check the leaderboard frequently to see if you still qualify for the top 10.
+
+**Disclaimer: It might take a refresh or two for your name to show up on the leaderboard**
 
 ## 🚀 Quick start
 
