@@ -14,16 +14,17 @@ The adventure you seek is back!
 
 Computer games have become an integral part of our daily lives now. From big platform productions like God of War to addictive smartphone essentials like Farmville, there are millions of cool games to choose from. Unfortunately, I feel like it is still hard to find titles that can replicate the excitement and the amusement retro arcade games.
 
-I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills. That is why I decided to revitilize an [older project](https://github.com/cemergin/TRIVIA-FIGHTER-TURBO) where I tried paying homage to "the good old days" by creating an arcade style game application.
+I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills. That is why I decided to revitilize an [old project](https://github.com/cemergin/TRIVIA-FIGHTER-TURBO) where I tried paying homage to "the good old days" by creating a SMS-based arcade-style trivia game.
 
 ## Features & Architecture
 
 ### Tech Stack
 
-1. React
-1. Gatsby
-1. Netlify
-1. Hasura
+- React
+- Gatsby
+- Netlify
+- Hasura
+- GraphQL
 
 ## To-Do
 
@@ -41,9 +42,9 @@ Trivia Fighter Turbo gets its questions from [Open Trivia DB](https://opentdb.co
 
 Questions come at random difficulty levels, at every new round. Fortune might favor you with a flurry of easy questions or one difficult opponent might be your end. On the bright side, harder questions yield more points!
 
-1.  Easy = 100 Points
-1.  Medium = 200 Points
-1.  Hard = 500 Points
+- Easy = 100 Points
+- Medium = 200 Points
+- Hard = 500 Points
 
 ### Keep an eye out for time
 
