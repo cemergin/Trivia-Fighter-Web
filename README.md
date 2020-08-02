@@ -53,7 +53,7 @@ Every round 10 more seconds are added to your timer. If the timer runs out befor
 
 Beat other fighters' scores to put your name on the map. Check the leaderboard frequently to see if you still qualify for the top 10.
 
-### 🚀 Quick start
+## 🚀 Quick start
 
 1.  **Install the Dependencies.**
 
@@ -126,4 +126,4 @@ A quick look at the top-level files and directories
 
 13. **`functions`**: This directory contains all of the code that is used by Netlify to create serverless Lamda functions.
 
-14. **`functions`**: This directory contains all the static assets of the web application that are served by Netlify.
+14. **`public`**: This directory contains all the static assets of the web application that are served by Netlify.
