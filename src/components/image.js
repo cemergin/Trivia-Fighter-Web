@@ -26,7 +26,13 @@ const Image = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Scene from Street Fighter. Ryu Fighting Bison"
+      role="complementary"
+    />
+  );
 };
 
 export default Image;

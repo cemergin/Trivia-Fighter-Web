@@ -11,7 +11,7 @@ const IndexPage = () => {
       <section>
         <Image></Image>
         <h1>Are you ready to fulfill your destiny?</h1>
-        <h4>Become the greatest trivia fighter of all time!</h4>
+        <h2>Become the greatest trivia fighter of all time!</h2>
         <div
           style={{
             marginBottom: "1vh",

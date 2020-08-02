@@ -15,7 +15,13 @@ const Image = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="You've outlasted the best. You are now the strongest fighter in the world!"
+      role="complementary"
+    />
+  );
 };
 
 export default Image;

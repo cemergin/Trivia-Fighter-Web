@@ -15,7 +15,13 @@ const Image = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Knock Out"
+      role="complementary"
+    />
+  );
 };
 
 export default Image;

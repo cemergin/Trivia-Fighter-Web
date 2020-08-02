@@ -12,7 +12,6 @@ const GameOver = ({ onType, onSend, onTryAgain, score, disableSend }) => {
       .then((resultData) => {
         setHighScores(resultData.leaderboard);
         setLoad(true);
-        console.log(resultData.leaderboard);
       });
   }, []);
 
@@ -33,7 +32,14 @@ const GameOver = ({ onType, onSend, onTryAgain, score, disableSend }) => {
             }}
             placeholder="Put Your Name in History"
             type="text"
+            id="nameInput"
           ></input>
+          {/* <label
+            htmlFor="nameInput"
+            style={{ width: "100%", textAlign: "center" }}
+          >
+            Type your name above
+          </label> */}
         </>
       ) : (
         <>

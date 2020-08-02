@@ -21,7 +21,11 @@ const NotFoundPage = () => {
   return (
     <Layout>
       <SEO title="404: Not found" />
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        alt="You must defat Sheng Long to stand a chance."
+        role="complementary"
+      />
       <h1>Something went wrong...</h1>
       <p>You just hit a route that doesn&#39;t exist... </p>
     </Layout>
