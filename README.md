@@ -6,11 +6,17 @@ Are you ready to fulfill your destiny and become the greatest trivia fighter of 
 
 The adventure you seek is back!
 
+**[PLAY NOW](https://trivia-fighter-web.netlify.app/)**
+
+## Description
+
 ## Context
 
 Computer games have become an integral part of our daily lives now. From big platform productions like God of War to addictive smartphone essentials like Farmville, there are millions of cool games to choose from. Unfortunately, I feel like it is still hard to find titles that can replicate the excitement and the amusement retro arcade games.
 
 I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills. That is why I decided to revitilize an [older project](https://github.com/cemergin/TRIVIA-FIGHTER-TURBO) where I tried paying homage to "the good old days" by creating an arcade style game application.
+
+## Features & Architecture
 
 ### Tech Stack
 
@@ -19,7 +25,35 @@ I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills.
 1. Netlify
 1. Hasura
 
-## 🚀 Quick start
+## To-Do
+
+## How to Play
+
+### Stay in the fight
+
+Trivia Fighter Turbo presents you arcade style trivia in a web browser! Compete in upto 20 rounds of multiple choice questions to get the highest score and put your name on the leaderboard.
+
+Game is over if you guess wrong or if you run out of time.
+
+Trivia Fighter Turbo gets its questions from [Open Trivia DB](https://opentdb.com/). Be prepared for questions from +20 different categories!
+
+### Stronger the opponent, bigger the prize
+
+Questions come at random difficulty levels, at every new round. Fortune might favor you with a flurry of easy questions or one difficult opponent might be your end. On the bright side, harder questions yield more points!
+
+1.  Easy = 100 Points
+1.  Medium = 200 Points
+1.  Hard = 500 Points
+
+### Keep an eye out for time
+
+Every round 10 more seconds are added to your timer. If the timer runs out before you can answer a question, game is over. Use the time wisely if you want to reach the top!
+
+### Make History
+
+Beat other fighters' scores to put your name on the map. Check the leaderboard frequently to see if you still qualify for the top 10.
+
+### 🚀 Quick start
 
 1.  **Install the Dependencies.**
 
@@ -30,7 +64,7 @@ I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills.
     npm install netlify-cli -g
     ```
 
-1.  **Start developing.**
+1.  **Start Playing.**
 
     ```shell
     cd trivia-fighter-web
@@ -46,7 +80,7 @@ I was looking for ideas to practise my [JAMStack](https://jamstack.org/) skills.
 
     \_Note: Netlify will serve your functions from a different port than 8000. Keep an eye out for a message like "Functions server is listening on 53088". You can use your own browser or an application like Postman to test the endpoints.\_
 
-## 🧐 What's inside?
+### 🧐 What's inside?
 
 A quick look at the top-level files and directories
 
